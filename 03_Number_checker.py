@@ -12,3 +12,10 @@ def num_check(question, error, num_type):
 
         except ValueError:
             print(error)
+
+
+my_num = num_check("Enter a number", "Enter an integer more than 0", int)
+print("you chose", my_num)
+
+my_other_num = num_check("Enter a number", "Enter an float more than 0", float)
+print("you chose", my_other_num)
